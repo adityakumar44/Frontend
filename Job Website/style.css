@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url(images/three\ womwn.webp);
+    height: 90vh;
+     color: #fff;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.553);
+    height: 90vh;
+}
+.header-top{
+    background: rgb(154,204,237);
+    background: linear-gradient(90deg, rgba(154,204,237,1) 4%, rgba(120,210,187,1) 61%, rgba(168,238,140,0.9598433123249299) 100%);
+    height: 7vh;
+}
+.top-left{
+    text-align: center;
+   
+    float:left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.top-left img{
+    width:30px;
+}
+.top-right{
+    float: right;
+    display: flex;
+    margin-top: 22px;
+    margin-right: 20px;
+    font-size: 15px;
+    
+   
+}
+.top-right div{
+    padding:0px 12.5px ;
+    cursor: pointer;
+}
+.header-mid{
+   text-align: center;
+   margin-top: 15%;
+}
+.header-mid h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* -------------search box--------------- */
+#search{
+    margin: 0px 10vh;
+    position: relative;
+    bottom: 7vh;
+    background: rgb(154,204,237);
+    background: linear-gradient(90deg, rgba(154,204,237,1) 4%, rgba(120,210,187,1) 61%, rgba(168,238,140,1) 100%);
+    align-content: center;
+    padding: 10px;
+}
+.search-box{
+    margin: 30px auto 30px auto;
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 28vh;
+    padding: 5px;
+}
+#search button{
+    width: 100px;
+    color: #fff;
+    background-color: rgb(64, 143, 221);
+    border: none;
+    cursor: pointer;
+}
+
+/*---------------------recruiters----------  */
+#logo{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+#logo h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+h2::before{
+    content: " ";
+    background: linear-gradient(90deg, rgba(154,204,237,1) 4%, rgba(120,210,187,1) 61%, rgba(168,238,140,1) 100%);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+.logo-img{
+    width: 60%;
+    margin: auto;
+}
+.logo-img img{
+    width: 100px;
+    height: 90px;
+    margin: 10px 20px;
+}
+
+/* -------------update----------------- */
+
+#update{
+    background-color: rgba(124, 123, 123, 0.073);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.update-container{
+    margin: auto;
+    width: 70%;
+}
+.update-container p{
+    margin-bottom: 10px;
+    font-size: large;
+}
+.update-box{
+    padding: 5px 20px 0px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.update-box h4{
+    margin-bottom: 7px;
+    font-size: 22px;
+}
+.update-box p{
+    margin: 5px 0px;
+    font-size: 14px;
+}
+.update-box img{
+    width: 17px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.skills{
+    margin: 0px 5px;
+    padding:0px 2px;
+    background-color: rgba(124, 123, 123, 0.201);
+}
+.read-more{
+    float: right;
+    background-color: #fff;
+    color: rgba(124, 123, 123, 0.263);
+    cursor: pointer;
+}
+.bottom{
+    background: rgb(154,204,237);
+    background: linear-gradient(90deg, rgba(154,204,237,1) 4%, rgba(120,210,187,1) 61%, rgba(168,238,140,1) 100%);
+    width: 1008px;
+    position: relative;
+    left: -20px;
+    height: 35px;
+    margin-top: 10px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+}
+.bottom button{
+    background-color: transparent;
+    border: #fff 1px solid;
+    color: #fff;
+    padding: 0px 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pages span:hover{
+    background: rgb(154,204,237);
+    background: linear-gradient(90deg, rgba(154,204,237,1) 4%, rgba(120,210,187,1) 61%, rgba(168,238,140,1) 100%);
+    width: 20px;
+
+}
+.pages{
+   text-align: center;
+   padding: 0px 10px;
+   width: 20%;
+   margin: auto;
+}
+.pages span{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+
+
+}
+.active{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 20px;
+}
+
+/* ---------------Stats--------- */
+#stats{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#stats h2{
+    text-align: center;
+    padding-bottom: 40px ;
+}
+
+.stats-boxes{
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+}
+.stats-box{
+    width: 15%;
+    align-items: center;
+    padding: 30px 40px 30px 40px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.stats-box img{
+    width: 30px;
+    position: relative;
+    left: -5px ;
+
+}
+.stats-box div{
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+
+
+}
+.stats-box p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ------------ app------------ */
+#app{
+    background: rgb(154,204,237);
+    background: linear-gradient(90deg, rgba(154,204,237,1) 4%, rgba(120,210,187,1) 61%, rgba(168,238,140,1) 100%);
+    height: 25vh;
+    text-align: center;
+    padding-top:55px;
+    margin-bottom: 20px;
+}
+#app p{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+#app img{
+    width: 35vh;
+}
+/* -----------footer--------- */
+#footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-img {
+    font-weight: bolder;
+    font-size: 20px;
+}
+#footer img{
+    width: 30px;
+    position: relative;
+    top: 6px;
+    left: -2px;
+}
+.Description{
+    font-size: 15px;
+    margin-top:30px;
+    color: rgb(134, 137, 140);
+}
+hr{
+    width: 98%;
+    margin: auto;
+}
+.bottom-bar{
+    margin: 10px 0px;
+}

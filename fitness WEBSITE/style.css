@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------header------------- */
+#header{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+#header img{
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* -----------sidebar----------- */
+
+.button{
+    border:#fff solid 2px;
+}
+.bar0{
+    background-color: #f67c92;
+    display:inline-block;
+    height: 5px;
+    border-radius: 5px;
+    width: 35px;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+.bar1{
+    background-color: #f67c92;
+    display:inline-block;
+    height: 5px;
+    border-radius: 5px;
+    width: 35px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+.bar2{
+    background-color: #f67c92;
+    display:inline-block;
+    height: 5px;
+    border-radius: 5px;
+    width: 35px;
+    margin-left: 75px;
+    top: -20px;
+    position: relative;
+    
+}
+
+
+#sidebar{
+
+    margin-top: -10px; 
+    margin-right: -120px;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px 20px;
+   text-align: right;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* -----------------overlap banner---------- */
+#on-image{
+    margin: auto;
+    width: 75%;
+    position: relative;
+    bottom: 15vh;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 50px;
+
+}
+.overlap-box{
+    width:80%;
+    margin: auto;
+
+}
+.overlap-box h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.overlap-box p{
+    margin: 10px 0px;
+    line-height: 25px;
+    color: rgb(108, 106, 106);
+}
+.Subcribe{
+    background-color: rgb(63, 21, 217);
+    color: #fff;
+    padding: 10px;
+    width: 120px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+/* ----------detail-------- */
+#detail{
+    margin: 0px auto 80px auto;
+    width: 75%;
+    height: 80vh;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width:49%;
+    margin-bottom: 10px;
+    height:auto;display: block;
+    height: 320px;
+    
+}
+.box img{
+    width: 100%;
+}
+.box h3{
+    font-size: 30px;
+    padding: 10px 10px;
+    margin-top: 30px;
+}
+.box p{
+    color: gray;
+    margin: 10px 10px;
+}
+
+/* -----------training--------------*/
+
+#training{
+    background-color: rgba(128, 128, 128, 0.227);
+    height: 35vh;
+    margin-top: 100px;
+    padding-top: 120px;
+}
+.container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.training-box{
+    width: 30%;
+
+}
+.training-box img{
+    width: 50px;
+    padding: 10px 0px 30px 20px;
+}
+.training-box p{
+    color: rgb(95, 91, 91);
+}
+/* ----------banner---------- */
+#banner{
+    background-image: url(images/feature-background.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.593);
+    height: 80vh;
+}
+.container_1{
+    padding: 100px;
+    display: flex;
+    
+}
+
+.col1 img{
+    padding-top: 50px;
+    padding-left: 50px;
+
+
+}
+.feature-container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.feature-container-left img{
+    width: 10vh;
+    margin-left: 50px;
+}
+.feature-container-right {
+    color: #fff;
+    width: 70%;
+}
+.feature-container-right h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* ------------Meet our User----------- */
+#user{
+    height: 80vh;
+    padding-top: 100px;
+}
+.contant1{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+.contant1 h2{
+    color: rgb(92, 92, 231);
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.contant1 p{
+    width:80vh;
+    margin: auto;
+    color: gray; 
+}
+.user-box{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    width: 28%;
+    height: 15vh;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: gray;
+}
+.box1 p{
+    width: 90%;
+}
+.color{
+    color: rgb(16, 72, 216);
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.box-img{
+    width: 50px;
+    border-radius: 50%;
+    border: #fff solid 2px;
+    margin-left: -55px;
+    margin-top: -10px;
+}
+.box-mid{
+    margin-top: -30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    width: 28%;
+    height: 13vh;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: gray;
+}
+/* -----------email------------ */
+#email{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: #fff SOLID .1PX;
+    width:75%;
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(16, 37, 158);
+    margin-bottom: -60px;
+    position: relative;
+    border-radius: 50px;
+
+}
+.email-container{
+    color: #fff;
+    margin:50px 0px;
+}
+.email-container h3{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.email-container p{
+    margin-bottom: 10px;
+}
+.email-container input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(128, 128, 128, 0.375);
+
+}
+.email-container button{
+    margin-left: -80px;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(90deg, rgb(41, 69, 232) 0%, rgb(152, 162, 236) 100%);
+}
+/* ------------footer---------- */
+#footer{
+    height: 33vh;
+    background-color: rgb(226, 221, 221);
+    padding-top: 100px;
+}
+.footer-container{
+    height: 20vh;
+    width: 75%;
+    margin-left: 20vh;
+    display: flex;
+    color: rgb(41, 41, 112);
+    
+}
+.footer-container > div{
+    width: 40vh;
+    margin-right: 50px;
+}
+.footer-box_logo img{
+    width: 20vh;
+    margin-bottom: 10px;
+}
+.footer-box_logo p{
+    width: 30vh;
+}
+.footer-box >div{
+    padding: 10px 0px;
+}
+.footer-box img{
+    width: 20px;
+    margin-right: 20px;
+}
+.footer-box h3{
+    margin-bottom: 10px;
+}
+.city{
+    margin-left: 40px;
+}
+.line{
+    margin-top: 50px;
+    width: 75%;
+    color: rgba(0, 0, 0, 0.172);
+    margin-left:auto;
+    margin-right: auto;
+}
+.footer_credit{
+    text-align: center;
+    padding: 10
+    px 0px;
+}
